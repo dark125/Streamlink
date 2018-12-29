@@ -1,0 +1,2 @@
+#!/bin/bash
+streamlink --loglevel error --stdout --hds-segment-threads 3 --http-header="User-Agent= Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20" "$1" best
